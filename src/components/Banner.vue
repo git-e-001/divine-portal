@@ -1,60 +1,45 @@
 <template>
   <div class="z-[2] container">
-    <div class="banner_slide_content">
+    <div class="banner_slide_content h-full">
       <!-- STRART CONTAINER -->
       <div class="text-white">
-        <div
-          class="
-            grid grid-cols-1
-            lg:grid-cols-2
-            gap-24
-            justify-between
-            items-center
-          "
-        >
-          <div class="text-center lg:text-left">
-            <h2 class="mt-10 md:mt-0 font-bold text-xl md:text-3xl xl:text-4xl">
-              The Luckiest Token in the world! Earn Mega Reflections today!
-            </h2>
-
-            <h4 class="lg:text-lg mt-6 text-white font-['Roboto'] text-left">
-              CREATE A WORLD THAT WORKS FOR YOU. BUILD AUTOMATED REAL WORLD
-              COMPANIES, & MANAGE THEM THROUGH YOUR DAO.
-            </h4>
-            <p class="lg:text-lg font-['Roboto'] mt-6">
-              KuteKoi Coin focuses on profitability through autostaking and
-              compounding crypto interest. KuteKoi Coin’s Dao is built around
-              keeping KuteKoi optimized for all future staking and liquidity
-              needs. KuteKoi Coin's AI system is like no other in terms of
-              safety, security and prosperity. We will easily reach up to
-              700,000.00%% APY.
-            </p>
-          </div>
-          <div>
-            <div class="">
+        <div class="grid grid-cols-2 gap-24 justify-between items-center">
+          <h2 class="text-xl md:text-3xl">Divine Portals</h2>
+          <div class="col-span-2">
+            <div
+              class="
+                flex
+                lg:flex-row
+                flex-col
+                justify-center
+                items-center
+                lg:space-x-40
+                space-x-0
+                lg:space-y-0
+                space-y-20
+              "
+            >
+              <div>
+                <h1 class="mt-6 text-4xl">
+                  Cryptocurrency
+                  <br />
+                  Pre-ICO starts in.
+                </h1>
+              </div>
               <div
                 class="
-                  px-7
-                  md:px-12
-                  py-20
+                  md:w-[450px] md:h-[450px]
+                  p-6
                   cursor-pointer
                   rounded-3xl
-                  bg-[#D4922F]
+                  bg-sky-500
                   transition
                   duration-300
                   ease-in-out
                   hover:scale-105 hover:drop-shadow-2xl
                 "
               >
-                <h3
-                  class="
-                    text-center text-xl
-                    md:text-3xl
-                    xl:text-4xl
-                    mb-2
-                    font-bold
-                  "
-                >
+                <h3 class="md:text-3xl text-xl mb-2 px-16">
                   Private Sale (Round 2) Ends in
                 </h3>
                 <vue-countdown
@@ -63,12 +48,12 @@
                   v-slot="{ days, hours, minutes, seconds }"
                 >
                   <div
-                    class="conutdown-list lg:text-lg font-['Roboto']"
+                    class="conutdown-list lg:text-lg font-['Roboto'] mt-5"
                     id="countdown"
                   >
                     <ul class="flex justify-around text-center flex-wrap">
                       <li>
-                        <span>days</span>
+                        <span>Days</span>
                         <span class="clock-background" id="days">{{
                           days
                         }}</span>
@@ -79,12 +64,12 @@
                         }}</span>
                       </li>
                       <li>
-                        Minutes<span class="clock-background" id="minutes">{{
+                        Min<span class="clock-background" id="minutes">{{
                           minutes
                         }}</span>
                       </li>
                       <li>
-                        Seconds<span class="clock-background" id="seconds">{{
+                        Sec<span class="clock-background" id="seconds">{{
                           seconds
                         }}</span>
                       </li>
@@ -93,66 +78,40 @@
                 </vue-countdown>
 
                 <p class="total-fund mt-4 mb-6 font-medium font-['Roboto']">
-                  Total funds raised: $0
+                  Total funds raised: $29,200.98
                 </p>
 
                 <div class="font-['Roboto']">
-                  <button
-                    class="
-                      bg-[#C00100]
-                      hover:bg-[#C00100]
-                      text-white
-                      font-bold
-                      py-2
-                      px-4
-                      rounded
-                    "
-                  >
+                  <button class="bg-white text-black py-1 px-6 rounded">
                     KYC
                   </button>
 
-                  <button
-                    class="
-                      bg-[#C00100]
-                      hover:bg-[#C00100]
-                      text-white
-                      font-bold
-                      py-2
-                      px-4
-                      ml-2
-                      rounded
-                    "
-                  >
-                    Audit
+                  <button class="bg-white text-black py-1 px-6 ml-2 rounded">
+                    Audio
                   </button>
                 </div>
 
-                <div class="clock-button mt-10 font-['Roboto']">
-                  <a
-                    href="https://cutt.ly/xFfVQ82"
+                <div class="clock-button mt-6 font-['Roboto']">
+                  <button
                     class="
-                      buy_now_btn
-                      btn-aylen
-                      rounded-[40px]
-                      bg-[#C00100]
-                      border-solid border-2 border-[#C00100]
-                      text-white
-                      py-4
-                      px-12
-                      md:px-28
-                      lg:px-16
-                      xl:px-28
+                      rounded-full
+                      bg-white
+                      text-black
                       cursor-pointer
                       uppercase
                       transition
                       ease-in-out
                       duration-500
-                      w-full
+                      w-52
+                      md:py-3
+                      py-2
+                      font-bold
                     "
                   >
-                    BUY NOW</a
-                  >
+                    BUY NOW
+                  </button>
                   <!-- 🔥 -->
+                  <p class="mt-3">Join the comunity ____________</p>
                 </div>
               </div>
             </div>
@@ -185,7 +144,7 @@ export default {
 
 <style scoped>
 .clock-background {
-  @apply bg-[#C00100] w-[70px] h-[70px] text-[31px] flex justify-center items-center mt-4 rounded-lg;
+  @apply bg-white text-black md:w-[60px] w-[40px] md:h-[60px] h-[40px] md:text-[31px] flex justify-center items-center mt-4 rounded-2xl;
 }
 .ova-heading {
   @apply text-lg font-medium;

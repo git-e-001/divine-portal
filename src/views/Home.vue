@@ -1,12 +1,8 @@
 <template>
   <div>
-    <section
-      id="home_section"
-      class="banner-bg full_screen"
-      :style="bgImage"
-    >
-        <Header />
-        <Banner />
+    <section id="home_section" class="banner-bg" :style="bgImage">
+      <Header />
+      <Banner />
     </section>
     <section class="bg-[#171010] md:pt-[100px]">
       <SparkInfo />
@@ -15,7 +11,7 @@
     <section class="md:py-[100px]" :style="aboutBgImage">
       <About />
     </section>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -32,23 +28,25 @@ export default {
     Header,
     SparkInfo,
     About,
-    Footer
+    Footer,
   },
   data() {
     return {
       bgImage: {
-        backgroundImage: `url(${require('@/assets/background/banner_bg.png')})`
+        backgroundImage: `url(${require("@/assets/background/banner_bg.png")})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
       },
       aboutBgImage: {
-        backgroundImage: `url(${require('@/assets/background/about_team_bg.png')})`
-      }
+        backgroundImage: `url(${require("@/assets/background/about_team_bg.png")})`,
+      },
     };
   },
 };
 </script>
 
 <style scoped>
-.banner-bg{
+.banner-bg {
   /* background-image: url(https://web3spark.io/assets/images/wave_shape4.png); */
   @apply overflow-hidden;
 }
@@ -75,11 +73,6 @@ export default {
   display: -ms-flexbox;
   -ms-flex-align: center;
   -ms-flex-wrap: wrap;
-}
-
-.full_screen,
-.full_screen .carousel-item {
-  /* @apply min-h-[100vh]; */
 }
 
 section {
