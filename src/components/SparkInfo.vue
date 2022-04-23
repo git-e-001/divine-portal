@@ -1,162 +1,39 @@
 <template>
   <div class="">
-    <div class="container md:pb-24 lg:pb-40">
-      <!-- Start Spark Info & Tokenomics -->
-      <div class="grid grid-cols-1">
-        <div
-          class="
-            col-span-2
-            lg:text-lg
-            mt-10
-            text-center
-            w-[83%]
-            mx-auto
-            leading-normal
-            text-white
-          "
-        >
-          <h3 class="text-3xl md:text-4xl xl:text-[48px] font-bold">
-            KuteKoi Tokenomics
-          </h3>
-          <p class="my-10 font-['Roboto']">
-            KuteKoi’s reflection system is developed to provide maximum rewards to KuteKoi holders.
+    <div class="md:pb-24 lg:pb-40">
+      <!-- Start Basic Info -->
+      <div class="bg-[#18A8DB] py-8">
+        <div class="container text-white">
+          <h2 class="mt-8 text-2xl">Features</h2>
+          <p class="max-w-lg mx-auto">
+            Create healthy and eco-friendly environments for people around the
+            globe.Co-Create the new earth and lifestyles Diversity and Freedom.
+            Peace and Love for all.
           </p>
-          <p class="mb-10 font-['Roboto']">
-            KuteKoi will create and open automated businesses while splitting the profits amongst the reflection and reward systems to empower KuteKoi holders. KuteKoi also has a refill system that will empower weakening markets during the time of need. KuteKoi also has a special anti dump system that will help balance the market as needed.
+          <h2 class="mt-8 text-2xl">Vision:</h2>
+          <p>
+            The biggest community for <br />
+            higher consciousness and <br />
+            holistic health on earth.
           </p>
-
-          <p class="mb-10 font-['Roboto']">
-            KuteKoin will purchase physical companies and turn them into Defi systems reducing human work and then pay KuteKoin holders their worth in hopes of reducing human stress and labor where possible.
+          <h2 class="mt-8 text-2xl">Mission:</h2>
+          <p class="max-w-3xl mx-auto">
+            Create the biggest online and offline community around higher
+            consciousness, mental health and spirituality on earth.Create
+            healthy and eco-friendly environments for people around the globe.
+            Co-Create the new earth and lifestyles Diversity and Freedom. Peace
+            and Love for all. Freedom Projects trough raising consciousness of
+            humanity Schools for entrepreneurship and mental health Kids schools
           </p>
-        </div>
-
-        <div class="self-center justify-self-center mt-12">
-          <div class="text-center">
-            <a
-              href="https://t.me/web3spark"
-              class="
-                md:-mt-3
-                lg:-mt-2
-                justify-center
-                items-center
-                btn-aylen
-                lg:text-lg
-                rounded-[40px]
-                bg-[#C00100]
-                border-solid border-2 border-[#C00100]
-                text-white
-                md:py-3
-                md:px-4
-                mb-8
-                md:mb-0
-                cursor-pointer
-                uppercase
-                flex
-                md:float-left
-                transition
-                ease-in-out
-                duration-500
-                w-[199px]
-                h-[46px]
-              "
-              ><img
-                class="w-[30px] h-[30px] mt-[-2px]"
-                src="@/assets/images/telegram.png"
-              />Telegram</a
-            >
-            <a
-              href="#"
-              class="
-                justify-center
-                items-center
-                md:ml-3
-                lg:text-lg
-                buy_now_btn
-                btn-aylen
-                rounded-[40px]
-                bg-[#C00100]
-                border-solid border-2 border-[#C00100]
-                text-white
-                px-12
-                py-3
-                cursor-pointer
-                uppercase
-                transition
-                ease-in-out
-                duration-500
-              "
-              >Buy Now</a
-            >
-          </div>
         </div>
       </div>
-      <!-- End Spark Info & Tokenomics -->
-
-      <!-- Start Basic Info -->
-      <div class="grid grid-cols-1 pt-12 text-white w-[83%] mx-auto">
-        <!-- <div class="w-[65%] mx-auto">
-          <img src="@/assets/images/cover1.png" />
-        </div>
-        <div class="justify-self-center w-[70%] lg:w-[50%]">
-          <h4 class="mb-4 text-2xl md:text-5xl font-bold text-center">
-            Basic Info
-          </h4>
-          <ul class="text-left basic_info font-['Barlow']">
-            <li>
-              <span class="title">Date of Birth:</span>
-              <p>2 April. 2022</p>
-            </li>
-            <li>
-              <span class="title">Website:</span>
-              <p>web3spark.io</p>
-            </li>
-            <li>
-              <span class="title">Email:</span>
-              <p>hello@web3spark.io</p>
-            </li>
-            <li>
-              <span class="title">Type:</span>
-              <p>Community Made</p>
-            </li>
-            <li>
-              <span class="title">BSC Scan:</span>
-              <p class="text-[#1c8c97]">View</p>
-            </li>
-            <li>
-              <div class="dflex flex-row space-x-2">
-                <i
-                  class="
-                    fa-solid fa-location-arrow
-                    bg-[#3b5998]
-                    p-2
-                    rounded-full
-                  "
-                ></i>
-                <i
-                  class="fa-brands fa-twitter bg-[#00acee] p-2 rounded-full"
-                ></i>
-              </div>
-            </li>
-          </ul>
-        </div> -->
-
-        <div class="h-[500px]">
-
-        </div>
-
-        <div>
-          <h4 class="mb-4 mt-12 text-3xl lg:text-4xl xl:text-5xl font-bold text-left">
+      <div class="py-12 tokenomics">
+        <div class="container mx-auto ">
+          <h4 class="mb-4 text-3xl font-medium text-left lg:text-4xl xl:text-5xl">
             Tokenomics
           </h4>
 
-          <div
-            class="
-              skills
-              lg:text-lg
-              mt-12
-              font-['Roboto']
-            "
-          >
+          <div class="skills lg:text-lg mt-12 font-['Roboto']">
             <div class="skill_content pr_style1">
               <div class="text-left progrees_bar_text">
                 <span>Original Supply - 1 000 000 000 </span>
@@ -186,7 +63,7 @@
                   aria-valuenow="1.0"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style="width: 1.0%"
+                  style="width: 1%"
                 ></div>
               </div>
             </div>
@@ -261,21 +138,27 @@
           "
         >
           <p class="mt-10 lg:mt-24 mb-4 xl:leading-[3.5rem]">
-            Imagine a world where there is no longer hard manual labor. You can let the robots do it and still get paid for it like you did.
+            Imagine a world where there is no longer hard manual labor. You can
+            let the robots do it and still get paid for it like you did.
           </p>
           <p class="mt-10 lg:mt-24 mb-4 xl:leading-[3.5rem]">
-            This world can be a free, happy and stressfree place. We will be seeking only this, throughout our mission together.
+            This world can be a free, happy and stressfree place. We will be
+            seeking only this, throughout our mission together.
           </p>
         </div>
       </div>
       <!-- End Web3 Quora -->
     </div>
 
-    <div
-      class="text-white bg-[#C00100] text-lg lg:text-lg py-20"
-    >
-      <p class="mb-8 md:mb-14 lg:!leading-[3.5rem]">"KuteKoi, manifesting wealth for you and your family"</p>
-      <b><a class="text-base" href="https://web3spark.io/"> -KuteKoi proverb</a></b>
+    <div class="text-white bg-[#C00100] text-lg lg:text-lg py-20">
+      <p class="mb-8 md:mb-14 lg:!leading-[3.5rem]">
+        "KuteKoi, manifesting wealth for you and your family"
+      </p>
+      <b
+        ><a class="text-base" href="https://web3spark.io/">
+          -KuteKoi proverb</a
+        ></b
+      >
     </div>
   </div>
 </template>
@@ -283,79 +166,6 @@
 <script>
 export default {
   name: "SparkInfo",
-  data() {
-    return {
-      timeLine: [
-        {
-          subheadline: "Phase 1",
-          status: "Completed",
-          sublist: [
-            "- Custom development of all tokens features",
-            "- Website Launch",
-            "- Dashboard Launch (SwapWallet)",
-            "- Audit Passed",
-          ],
-        },
-        {
-          subheadline: "Phase 2",
-          status: "In Progress",
-          sublist: [
-            '<span class= "text-yellow-600">* Basic Marketing</span>',
-            '<span  class="text-[#27e278]">Private sale Round 1</span>',
-            '<span class= "text-yellow-600">* Private sale Round 2</span>',
-            "- KYC by Pinksale / Others",
-            "- Audit by Coinscope",
-            "- Marketing for Presale",
-            "Presale on Pinksale",
-            "- AMA tour",
-            "- Poocoin presale ads",
-            "-Launch",
-            "-Swap 1.0",
-            "-Highest Auto-Staking",
-            "- Fastest Auto-Compound",
-            "-NFT Avatars Season 1",
-            "- The BarnBuddy game demo",
-            "- Major tg marketing groups pins",
-            "- Poocoin, dextools and bogged ads",
-            "-Coinmarketcap list",
-            "- CoinGecko list",
-            "- DAO 1.0",
-            "- Publications on several news outlets",
-            "-Coinmarketcap Trending",
-            "-20-100M Marketcap ATH",
-          ],
-        },
-        {
-          subheadline: "Phase 3",
-          status: "Upcoming",
-          sublist: [
-            "- Listing on CoinMarketCap",
-            "- Listing on CoinGecko",
-            "Dashboard Launch (SwapWallet)",
-            `- Listing on CEX's Exchange`,
-            "- Listing on BitMart Exchange",
-            "- 100-300M Market Cap",
-            "- Swapping required amount of SPARK3 for the Rewards Budget",
-            "- Burning",
-            "- Burn Buddy Release",
-          ],
-        },
-        {
-          subheadline: "Phase 4",
-          status: "Upcoming",
-          sublist: [
-            "- NFT Marketplace",
-            "- Rewards Giveaway (200 BNB)",
-            "- 50 000 Telegram Group users",
-            `- Initial Partnerships`,
-            "- Listing on new Exchanges",
-            "- Burning",
-            "- 450-1B Market Cap",
-          ],
-        },
-      ],
-    };
-  },
 };
 </script>
 
@@ -391,19 +201,7 @@ export default {
   -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }
-.timeline-card {
-  @apply relative p-5;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.timeline-green {
-  color: #27e278;
-}
-.timeline-green-border {
-  border-bottom: 2px solid #27e278;
-}
-.timeline-yellow-border {
-  border-bottom: 2px solid #f5bf2f;
-}
+
 .progress-bar {
   display: -ms-flexbox;
   display: flex;
@@ -418,11 +216,17 @@ export default {
   transition: width 0.6s ease;
 }
 .skill_content .progress-bar {
-  background-color: #c00100;
+  background-color: #18A8DB;
   border-radius: 20px;
   width: 0;
   -webkit-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
+}
+.tokenomics {
+  @apply text-white;
+  background-image: url("/src/assets/background/artboard–3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>

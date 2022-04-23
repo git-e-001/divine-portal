@@ -8,7 +8,7 @@
         <Header />
         <Banner />
     </section>
-    <section class="bg-[#171010] md:pt-[100px]">
+    <section class="bg-[#171010]">
       <SparkInfo />
     </section>
 
