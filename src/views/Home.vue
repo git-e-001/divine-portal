@@ -7,17 +7,7 @@
     <section class="h-[524px] flex items-center" :style="whatDoWeDo">
       <div class="container">
         <div
-          class="
-            flex
-            lg:flex-row
-            flex-col
-            items-center
-            justify-center
-            lg:space-x-5
-            space-x-0
-            lg:space-y-0
-            space-y-5
-          "
+          class="flex flex-col items-center justify-center space-x-0 space-y-5 lg:flex-row lg:space-x-5 lg:space-y-0"
         >
           <div>
             <img
@@ -40,31 +30,14 @@
               globe.Co-Create the new earth and lifestyles Diversity and
               Freedom. Peace and Love for all.
             </div>
-            <div class="md:space-x-5 space-x-1 text-left">
+            <div class="space-x-1 text-left md:space-x-5">
               <button
-                class="
-                  bg-sky-500
-                  md:py-2
-                  py-1
-                  md:px-12
-                  px-6
-                  rounded-full
-                  border-2 border-sky-500
-                  text-white
-                "
+                class="px-6 py-1 text-white border-2 rounded-full bg-sky-500 md:py-2 md:px-12 border-sky-500"
               >
                 Whitepaper
               </button>
               <button
-                class="
-                  md:py-2
-                  py-1
-                  md:px-12
-                  px-6
-                  rounded-full
-                  border-2 border-sky-500
-                  text-white
-                "
+                class="px-6 py-1 text-white border-2 rounded-full md:py-2 md:px-12 border-sky-500"
               >
                 Play Video
               </button>
@@ -73,13 +46,13 @@
         </div>
       </div>
     </section>
-    <section class="bg-[#171010] md:pt-[100px]">
+    <section class="bg-[#171010]">
       <SparkInfo />
     </section>
 
-    <section class="md:py-[100px]" :style="aboutBgImage">
+<!--     <section class="md:py-[100px]" :style="aboutBgImage">
       <About />
-    </section>
+    </section> -->
     <Footer />
   </div>
 </template>
@@ -88,7 +61,7 @@
 import Banner from "@/components/Banner.vue";
 import Header from "@/components/Header.vue";
 import SparkInfo from "@/components/SparkInfo.vue";
-import About from "@/components/About.vue";
+// import About from "@/components/About.vue";
 import Footer from "@/components/Footer.vue";
 export default {
   name: "Home",
@@ -96,7 +69,7 @@ export default {
     Banner,
     Header,
     SparkInfo,
-    About,
+    // About,
     Footer,
   },
   data() {

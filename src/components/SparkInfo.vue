@@ -1,68 +1,35 @@
 <template>
   <div class="">
-    <div class="container md:pb-24 lg:pb-40">
+    <div>
       <!-- Start Basic Info -->
-      <div class="grid grid-cols-1 pt-12 text-white w-[83%] mx-auto">
-        <!-- <div class="w-[65%] mx-auto">
-          <img src="@/assets/images/cover1.png" />
+      <div class="bg-[#18A8DB] py-8">
+        <div class="container text-white">
+          <h2 class="mt-8 mb-2 text-2xl">Features</h2>
+          <p class="max-w-lg mx-auto">
+            Create healthy and eco-friendly environments for people around the
+            globe.Co-Create the new earth and lifestyles Diversity and Freedom.
+            Peace and Love for all.
+          </p>
+          <h2 class="mt-8 mb-2 text-2xl">Vision:</h2>
+          <p>
+            The biggest community for <br />
+            higher consciousness and <br />
+            holistic health on earth.
+          </p>
+          <h2 class="mt-8 mb-2 text-2xl">Mission:</h2>
+          <p class="max-w-3xl mx-auto">
+            Create the biggest online and offline community around higher
+            consciousness, mental health and spirituality on earth.Create
+            healthy and eco-friendly environments for people around the globe.
+            Co-Create the new earth and lifestyles Diversity and Freedom. Peace
+            and Love for all. Freedom Projects trough raising consciousness of
+            humanity Schools for entrepreneurship and mental health Kids schools
+          </p>
         </div>
-        <div class="justify-self-center w-[70%] lg:w-[50%]">
-          <h4 class="mb-4 text-2xl md:text-5xl font-bold text-center">
-            Basic Info
-          </h4>
-          <ul class="text-left basic_info font-['Barlow']">
-            <li>
-              <span class="title">Date of Birth:</span>
-              <p>2 April. 2022</p>
-            </li>
-            <li>
-              <span class="title">Website:</span>
-              <p>web3spark.io</p>
-            </li>
-            <li>
-              <span class="title">Email:</span>
-              <p>hello@web3spark.io</p>
-            </li>
-            <li>
-              <span class="title">Type:</span>
-              <p>Community Made</p>
-            </li>
-            <li>
-              <span class="title">BSC Scan:</span>
-              <p class="text-[#1c8c97]">View</p>
-            </li>
-            <li>
-              <div class="dflex flex-row space-x-2">
-                <i
-                  class="
-                    fa-solid fa-location-arrow
-                    bg-[#3b5998]
-                    p-2
-                    rounded-full
-                  "
-                ></i>
-                <i
-                  class="fa-brands fa-twitter bg-[#00acee] p-2 rounded-full"
-                ></i>
-              </div>
-            </li>
-          </ul>
-        </div> -->
-
-        <div class="h-[500px]"></div>
-
-        <div>
-          <h4
-            class="
-              mb-4
-              mt-12
-              text-3xl
-              lg:text-4xl
-              xl:text-5xl
-              font-bold
-              text-left
-            "
-          >
+      </div>
+      <div class="py-20 tokenomics">
+        <div class="container mx-auto ">
+          <h4 class="mb-4 text-2xl text-left lg:text-4xl xl:text-5xl">
             Tokenomics
           </h4>
 
@@ -152,14 +119,14 @@
               </div>
             </div>
 
-            <p class="text-left">KUTEKOI TOKEN</p>
+            <p class="mt-4 text-left">( These stats are not in real-time. )</p>
           </div>
         </div>
       </div>
       <!-- End Basic Info -->
 
       <!-- Start Web3 Quora -->
-      <div class="text-white row">
+<!--       <div class="text-white row">
         <div
           class="
             text-lg
@@ -179,11 +146,11 @@
             seeking only this, throughout our mission together.
           </p>
         </div>
-      </div>
+      </div> -->
       <!-- End Web3 Quora -->
     </div>
 
-    <div class="text-white bg-[#C00100] text-lg lg:text-lg py-20">
+<!--     <div class="text-white bg-[#C00100] text-lg lg:text-lg py-20">
       <p class="mb-8 md:mb-14 lg:!leading-[3.5rem]">
         "KuteKoi, manifesting wealth for you and your family"
       </p>
@@ -192,86 +159,13 @@
           -KuteKoi proverb</a
         ></b
       >
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 export default {
   name: "SparkInfo",
-  data() {
-    return {
-      timeLine: [
-        {
-          subheadline: "Phase 1",
-          status: "Completed",
-          sublist: [
-            "- Custom development of all tokens features",
-            "- Website Launch",
-            "- Dashboard Launch (SwapWallet)",
-            "- Audit Passed",
-          ],
-        },
-        {
-          subheadline: "Phase 2",
-          status: "In Progress",
-          sublist: [
-            '<span class= "text-yellow-600">* Basic Marketing</span>',
-            '<span  class="text-[#27e278]">Private sale Round 1</span>',
-            '<span class= "text-yellow-600">* Private sale Round 2</span>',
-            "- KYC by Pinksale / Others",
-            "- Audit by Coinscope",
-            "- Marketing for Presale",
-            "Presale on Pinksale",
-            "- AMA tour",
-            "- Poocoin presale ads",
-            "-Launch",
-            "-Swap 1.0",
-            "-Highest Auto-Staking",
-            "- Fastest Auto-Compound",
-            "-NFT Avatars Season 1",
-            "- The BarnBuddy game demo",
-            "- Major tg marketing groups pins",
-            "- Poocoin, dextools and bogged ads",
-            "-Coinmarketcap list",
-            "- CoinGecko list",
-            "- DAO 1.0",
-            "- Publications on several news outlets",
-            "-Coinmarketcap Trending",
-            "-20-100M Marketcap ATH",
-          ],
-        },
-        {
-          subheadline: "Phase 3",
-          status: "Upcoming",
-          sublist: [
-            "- Listing on CoinMarketCap",
-            "- Listing on CoinGecko",
-            "Dashboard Launch (SwapWallet)",
-            `- Listing on CEX's Exchange`,
-            "- Listing on BitMart Exchange",
-            "- 100-300M Market Cap",
-            "- Swapping required amount of SPARK3 for the Rewards Budget",
-            "- Burning",
-            "- Burn Buddy Release",
-          ],
-        },
-        {
-          subheadline: "Phase 4",
-          status: "Upcoming",
-          sublist: [
-            "- NFT Marketplace",
-            "- Rewards Giveaway (200 BNB)",
-            "- 50 000 Telegram Group users",
-            `- Initial Partnerships`,
-            "- Listing on new Exchanges",
-            "- Burning",
-            "- 450-1B Market Cap",
-          ],
-        },
-      ],
-    };
-  },
 };
 </script>
 
@@ -307,19 +201,7 @@ export default {
   -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }
-.timeline-card {
-  @apply relative p-5;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.timeline-green {
-  color: #27e278;
-}
-.timeline-green-border {
-  border-bottom: 2px solid #27e278;
-}
-.timeline-yellow-border {
-  border-bottom: 2px solid #f5bf2f;
-}
+
 .progress-bar {
   display: -ms-flexbox;
   display: flex;
@@ -334,11 +216,17 @@ export default {
   transition: width 0.6s ease;
 }
 .skill_content .progress-bar {
-  background-color: #c00100;
+  background-color: #18A8DB;
   border-radius: 20px;
   width: 0;
   -webkit-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
+}
+.tokenomics {
+  @apply text-white;
+  background-image: url("/src/assets/background/artboard–3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
