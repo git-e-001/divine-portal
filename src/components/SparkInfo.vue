@@ -1,97 +1,6 @@
 <template>
   <div class="">
     <div class="container md:pb-24 lg:pb-40">
-      <!-- Start Spark Info & Tokenomics -->
-      <div class="grid grid-cols-1">
-        <div
-          class="
-            col-span-2
-            lg:text-lg
-            mt-10
-            text-center
-            w-[83%]
-            mx-auto
-            leading-normal
-            text-white
-          "
-        >
-          <h3 class="text-3xl md:text-4xl xl:text-[48px] font-bold">
-            KuteKoi Tokenomics
-          </h3>
-          <p class="my-10 font-['Roboto']">
-            KuteKoi’s reflection system is developed to provide maximum rewards to KuteKoi holders.
-          </p>
-          <p class="mb-10 font-['Roboto']">
-            KuteKoi will create and open automated businesses while splitting the profits amongst the reflection and reward systems to empower KuteKoi holders. KuteKoi also has a refill system that will empower weakening markets during the time of need. KuteKoi also has a special anti dump system that will help balance the market as needed.
-          </p>
-
-          <p class="mb-10 font-['Roboto']">
-            KuteKoin will purchase physical companies and turn them into Defi systems reducing human work and then pay KuteKoin holders their worth in hopes of reducing human stress and labor where possible.
-          </p>
-        </div>
-
-        <div class="self-center justify-self-center mt-12">
-          <div class="text-center">
-            <a
-              href="https://t.me/web3spark"
-              class="
-                md:-mt-3
-                lg:-mt-2
-                justify-center
-                items-center
-                btn-aylen
-                lg:text-lg
-                rounded-[40px]
-                bg-[#C00100]
-                border-solid border-2 border-[#C00100]
-                text-white
-                md:py-3
-                md:px-4
-                mb-8
-                md:mb-0
-                cursor-pointer
-                uppercase
-                flex
-                md:float-left
-                transition
-                ease-in-out
-                duration-500
-                w-[199px]
-                h-[46px]
-              "
-              ><img
-                class="w-[30px] h-[30px] mt-[-2px]"
-                src="@/assets/images/telegram.png"
-              />Telegram</a
-            >
-            <a
-              href="#"
-              class="
-                justify-center
-                items-center
-                md:ml-3
-                lg:text-lg
-                buy_now_btn
-                btn-aylen
-                rounded-[40px]
-                bg-[#C00100]
-                border-solid border-2 border-[#C00100]
-                text-white
-                px-12
-                py-3
-                cursor-pointer
-                uppercase
-                transition
-                ease-in-out
-                duration-500
-              "
-              >Buy Now</a
-            >
-          </div>
-        </div>
-      </div>
-      <!-- End Spark Info & Tokenomics -->
-
       <!-- Start Basic Info -->
       <div class="grid grid-cols-1 pt-12 text-white w-[83%] mx-auto">
         <!-- <div class="w-[65%] mx-auto">
@@ -140,23 +49,24 @@
           </ul>
         </div> -->
 
-        <div class="h-[500px]">
-
-        </div>
+        <div class="h-[500px]"></div>
 
         <div>
-          <h4 class="mb-4 mt-12 text-3xl lg:text-4xl xl:text-5xl font-bold text-left">
+          <h4
+            class="
+              mb-4
+              mt-12
+              text-3xl
+              lg:text-4xl
+              xl:text-5xl
+              font-bold
+              text-left
+            "
+          >
             Tokenomics
           </h4>
 
-          <div
-            class="
-              skills
-              lg:text-lg
-              mt-12
-              font-['Roboto']
-            "
-          >
+          <div class="skills lg:text-lg mt-12 font-['Roboto']">
             <div class="skill_content pr_style1">
               <div class="text-left progrees_bar_text">
                 <span>Original Supply - 1 000 000 000 </span>
@@ -186,7 +96,7 @@
                   aria-valuenow="1.0"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style="width: 1.0%"
+                  style="width: 1%"
                 ></div>
               </div>
             </div>
@@ -261,21 +171,27 @@
           "
         >
           <p class="mt-10 lg:mt-24 mb-4 xl:leading-[3.5rem]">
-            Imagine a world where there is no longer hard manual labor. You can let the robots do it and still get paid for it like you did.
+            Imagine a world where there is no longer hard manual labor. You can
+            let the robots do it and still get paid for it like you did.
           </p>
           <p class="mt-10 lg:mt-24 mb-4 xl:leading-[3.5rem]">
-            This world can be a free, happy and stressfree place. We will be seeking only this, throughout our mission together.
+            This world can be a free, happy and stressfree place. We will be
+            seeking only this, throughout our mission together.
           </p>
         </div>
       </div>
       <!-- End Web3 Quora -->
     </div>
 
-    <div
-      class="text-white bg-[#C00100] text-lg lg:text-lg py-20"
-    >
-      <p class="mb-8 md:mb-14 lg:!leading-[3.5rem]">"KuteKoi, manifesting wealth for you and your family"</p>
-      <b><a class="text-base" href="https://web3spark.io/"> -KuteKoi proverb</a></b>
+    <div class="text-white bg-[#C00100] text-lg lg:text-lg py-20">
+      <p class="mb-8 md:mb-14 lg:!leading-[3.5rem]">
+        "KuteKoi, manifesting wealth for you and your family"
+      </p>
+      <b
+        ><a class="text-base" href="https://web3spark.io/">
+          -KuteKoi proverb</a
+        ></b
+      >
     </div>
   </div>
 </template>
