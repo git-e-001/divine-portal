@@ -13,39 +13,11 @@
           "
         >
           <div class="text-center lg:text-left">
-            <div>
-              <img
-                class="left-banner-image absolute"
-                src="@/assets/background/left_banner.png"
-              />
-            </div>
-            <h2
-              class="
-                mt-10
-                md:mt-0
-                font-bold
-                text-xl
-                md:text-3xl
-                xl:text-4xl
-              "
-            >
+            <h2 class="mt-10 md:mt-0 font-bold text-xl md:text-3xl xl:text-4xl">
               The Luckiest Token in the world! Earn Mega Reflections today!
             </h2>
-            <!-- <h4 class="text-[27px] text-white font-bold text-center">
-              WITH
-              <span class="text-[#FFAFAE] uppercase"
-                >PARTICIPATE IN GOVERNANCE AND TAKE REVENUE FROM ALL OUR
-                UTILIT.</span
-              >|
-            </h4> -->
-            <h4
-              class="
-                lg:text-lg
-                mt-6
-                text-white font-['Roboto']
-                text-left
-              "
-            >
+
+            <h4 class="lg:text-lg mt-6 text-white font-['Roboto'] text-left">
               CREATE A WORLD THAT WORKS FOR YOU. BUILD AUTOMATED REAL WORLD
               COMPANIES, & MANAGE THEM THROUGH YOUR DAO.
             </h4>
@@ -90,7 +62,10 @@
                   :interval="100"
                   v-slot="{ days, hours, minutes, seconds }"
                 >
-                  <div class="conutdown-list lg:text-lg font-['Roboto']" id="countdown">
+                  <div
+                    class="conutdown-list lg:text-lg font-['Roboto']"
+                    id="countdown"
+                  >
                     <ul class="flex justify-around text-center flex-wrap">
                       <li>
                         <span>days</span>
@@ -120,11 +95,6 @@
                 <p class="total-fund mt-4 mb-6 font-medium font-['Roboto']">
                   Total funds raised: $0
                 </p>
-
-                <!-- <div class="ova-percent-view">
-                  <div class="ova-percent" data-percent="15"></div>
-                  <span class="percentage" data-show-percent="">15%</span>
-                </div> -->
 
                 <div class="font-['Roboto']">
                   <button
@@ -184,48 +154,13 @@
                   >
                   <!-- 🔥 -->
                 </div>
-
-                <!-- <div
-                  class="
-                    ova-heading-content
-                    mt-14
-                    md:px-14
-                    text-left
-                    font-['Barlow']
-                  "
-                >
-                  <h2 class="ova-heading ova_after">
-                    Join the comunity
-                    <span class="ova_after"></span>
-                  </h2>
-                  <div class="dflex flex-row space-x-7 mt-4">
-                    <i class="fa-solid fa-location-arrow"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                  </div>
-                </div> -->
-              </div>
-              <div>
-                <img
-                  class="right-banner-image absolute"
-                  src="@/assets/background/right_banner.png"
-                />
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="h-[150px]">
-
-    </div>
-    <!-- END CONTAINER-->
-    <!-- <div class="scroll-btn">
-      <a href="#">
-        <span class="mouse">
-          <span> </span>
-        </span>
-      </a>
-    </div> -->
+    <div class="h-[150px]"></div>
   </div>
 </template>
 
@@ -242,209 +177,13 @@ export default {
     };
   },
 
-  mounted() {
-    /* document.addEventListener("DOMContentLoaded", function () {
-      const dataText = [
-        "Low risk - backed by the Trust FUND + auto-buyback.",
-        "Interest paid every 3 seconds! Fastest Auto-Compounding possible",
-        "Participate in governance and take revenue from all our Utilit.",
-      ];
-
-      function typeWriter(text, i, fnCallback) {
-        if (i < text.length) {
-          document.querySelector("span").innerHTML =
-            text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
-
-          setTimeout(function () {
-            typeWriter(text, i + 1, fnCallback);
-          }, 100);
-        } else if (typeof fnCallback == "function") {
-          setTimeout(fnCallback, 700);
-        }
-      }
-      function StartTextAnimation(i) {
-        if (typeof dataText[i] == "undefined") {
-          setTimeout(function () {
-            StartTextAnimation(0);
-          }, 2000);
-        }
-        if (i < dataText[i].length) {
-          typeWriter(dataText[i], 0, function () {
-            StartTextAnimation(i + 1);
-          });
-        }
-      }
-      StartTextAnimation(0);
-    }); */
-  },
+  mounted() {},
 
   methods: {},
 };
 </script>
 
 <style scoped>
-@media only screen and (min-width: 320px) {
-  .left-banner-image {
-    width: 30%;
-    right: -35px;
-    top: 40px;
-  }
-  .right-banner-image {
-    width: 30%;
-    left: -45px;
-    top: 1300px;
-  }
-}
-@media only screen and (min-width: 720px) {
-}
-@media only screen and (min-width: 768px) {
-  .left-banner-image {
-    top: 1470px;
-    left: -120px;
-    width: 37%;
-  }
-  .right-banner-image {
-    top: 45px;
-    left: 613px;
-    width: 33%;
-  }
-}
-@media only screen and (min-width: 800px) {
-  .right-banner-image {
-    width: 28%;
-  }
-}
-@media only screen and (min-width: 900px) {
-  .right-banner-image {
-    left: 720px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .left-banner-image {
-    left: -135px;
-    width: 28%;
-    top: 872px;
-  }
-  .right-banner-image {
-    left: 780px;
-  }
-}
-@media only screen and (min-width: 1050px) {
-}
-@media only screen and (min-width: 1080px) {
-  .left-banner-image {
-    width: 25%;
-    top: 850px;
-  }
-  .right-banner-image {
-    left: 820px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .left-banner-image {
-    top: 800px;
-  }
-  .right-banner-image {
-    left: 950px;
-    top: 60px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .left-banner-image {
-    top: 920px;
-  }
-  .right-banner-image {
-    left: 980px;
-  }
-}
-@media only screen and (min-width: 1366px) {
-  .left-banner-image {
-    width: 25%;
-    top: 910px;
-  }
-  .right-banner-image {
-    left: 1050px;
-  }
-}
-@media only screen and (min-width: 1440px) {
-  .left-banner-image {
-    width: 20%;
-    top: 800px;
-  }
-  .right-banner-image {
-    top: 45px;
-    left: 1180px;
-  }
-}
-@media only screen and (min-width: 1536px) {
-  .right-banner-image {
-    top: 35px;
-    left: 1200px;
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .right-banner-image {
-    top: 25px;
-    left: 1250px;
-  }
-}
-@media only screen and (min-width: 1680px) {
-  .left-banner-image {
-    width: 20%;
-  }
-  .right-banner-image {
-    top: 13px;
-    left: 1290px;
-  }
-}
-@media only screen and (min-width: 1720px) {
-  .left-banner-image {
-    top: 726px;
-  }
-  .right-banner-image {
-    top: 13px;
-    left: 1320px;
-  }
-}
-@media only screen and (min-width: 1820px) {
-  .right-banner-image {
-    left: 1480px;
-  }
-}
-@media only screen and (min-width: 1920px) {
-  .left-banner-image {
-    top: 720px;
-  }
-  .right-banner-image {
-    left: 1476px;
-  }
-}
-@media only screen and (min-width: 2048px) {
-  .left-banner-image {
-    top: 750px;
-  }
-  .right-banner-image {
-    left: 1576px;
-  }
-}
-@media only screen and (min-width: 2200px) {
-  .right-banner-image {
-    left: 1676px;
-  }
-}
-@media only screen and (min-width: 2400px) {
-  .left-banner-image {
-    top: 700px;
-  }
-  .right-banner-image {
-    left: 1776px;
-  }
-}
-@media only screen and (min-width: 2560px) {
-  .right-banner-image {
-    left: 1876px;
-  }
-}
 .clock-background {
   @apply bg-[#C00100] w-[70px] h-[70px] text-[31px] flex justify-center items-center mt-4 rounded-lg;
 }
