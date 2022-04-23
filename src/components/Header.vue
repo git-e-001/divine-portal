@@ -20,7 +20,7 @@
       "
     >
       <div class="md:py-4 lg:p-4 flex flex-row items-center justify-between">
-        <a
+        <!-- <a
           href="#"
           class="
             text-lg
@@ -33,13 +33,12 @@
             focus:outline-none focus:shadow-outline
           "
         >
-          <!-- :class="[scrollPosition > 50 ? 'w-[35%]' : 'w-full']" -->
           <img
             class="w-[35%] md:w-full lg:w-[35%]"
             src="@/assets/logo.svg"
             alt=""
           />
-        </a>
+        </a> -->
         <button
           class="
             md:hidden
@@ -69,6 +68,8 @@
           hidden
           self-start
           md:flex md:justify-end md:flex-row
+          space-x-7
+          pr-48
         "
         :class="[
           scrollPosition > 50
@@ -79,9 +80,6 @@
         <a
           class="
             self-center
-            px-8
-            py-2
-            mt-2
             text-white
             rounded-lg
             md:mt-0
@@ -95,9 +93,6 @@
           class="
             self-center
             items-center
-            px-8
-            py-2
-            mt-2
             flex
             text-white
             rounded-lg
@@ -107,20 +102,11 @@
           "
           href="/whitePaper"
           >Whitepaper
-          <!-- <img
-            class="w-[30px] h-[30px] mt-[-2px]"
-            src="@/assets/images/spark.png"
-          /> -->
         </a>
         <a
           class="
             self-center
-            px-8
-            py-2
-            mt-2
             whitespace-nowrap
-            text-sm
-            font-semibold
             text-white
             rounded-lg
             md:mt-0
@@ -128,17 +114,12 @@
             focus:text-[#27E278] focus:outline-none focus:shadow-outline
           "
           href="/purchase-method"
-          >KOIWORLD</a
+          >How to Buy</a
         >
         <a
           class="
             self-center
-            px-8
-            py-2
-            mt-2
-            text-sm
             whitespace-nowrap
-            font-semibold
             text-white
             rounded-lg
             md:mt-0
@@ -146,7 +127,7 @@
             focus:text-[#27E278] focus:outline-none focus:shadow-outline
           "
           href="/purchase"
-          >BUY NOW</a
+          >Buy Now</a
         >
       </nav>
 
@@ -184,8 +165,6 @@
                       px-4
                       py-2
                       mt-2
-                      text-sm
-                      font-semibold
                       text-white
                       rounded-lg
                       md:mt-0
@@ -198,32 +177,7 @@
                     >Home</a
                   >
                 </li>
-                <li class="text-left">
-                  <a
-                    class="
-                      self-center
-                      items-center
-                      px-4
-                      py-2
-                      text-sm
-                      flex
-                      font-semibold
-                      text-white
-                      rounded-lg
-                      md:mt-0
-                      hover:text-[#27E278]
-                      focus:text-[#27E278]
-                      focus:outline-none
-                      focus:shadow-outline
-                    "
-                    href="/whitePaper"
-                    >Whitepaper
-                    <img
-                      class="w-[30px] h-[30px] mt-[-2px]"
-                      src="@/assets/images/spark.png"
-                    />
-                  </a>
-                </li>
+
                 <li class="text-left">
                   <a
                     class="
@@ -232,8 +186,6 @@
                       py-2
                       mt-2
                       whitespace-nowrap
-                      text-sm
-                      font-semibold
                       text-white
                       rounded-lg
                       md:mt-0
@@ -243,19 +195,17 @@
                       focus:shadow-outline
                     "
                     href="/purchase-method"
-                    >HOW TO BUY</a
+                    >How to Buy</a
                   >
                 </li>
-                <li class="text-left pt-4">
+                <li class="text-left">
                   <a
                     class="
                       self-center
                       px-4
                       py-2
                       mt-2
-                      text-sm
                       whitespace-nowrap
-                      font-semibold
                       text-white
                       rounded-lg
                       md:mt-0
@@ -265,34 +215,8 @@
                       focus:shadow-outline
                     "
                     href="/purchase"
-                    >BUY NOW</a
+                    >Buy Now</a
                   >
-                </li>
-                <li class="text-left">
-                  <a
-                    class="
-                      self-center
-                      items-center
-                      px-4
-                      py-2
-                      text-sm
-                      flex
-                      font-semibold
-                      text-white
-                      rounded-lg
-                      md:mt-0
-                      hover:text-[#27E278]
-                      focus:text-[#27E278]
-                      focus:outline-none
-                      focus:shadow-outline
-                    "
-                    href="/telegram"
-                    >TELEGRAM
-                    <img
-                      class="w-[30px] h-[30px] mt-[-2px]"
-                      src="@/assets/images/telegram.png"
-                    />
-                  </a>
                 </li>
               </ul>
             </div>
