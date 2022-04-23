@@ -1,22 +1,22 @@
 <template>
   <div class="">
-    <div class="md:pb-24 lg:pb-40">
+    <div>
       <!-- Start Basic Info -->
       <div class="bg-[#18A8DB] py-8">
         <div class="container text-white">
-          <h2 class="mt-8 text-2xl">Features</h2>
+          <h2 class="mt-8 mb-2 text-2xl">Features</h2>
           <p class="max-w-lg mx-auto">
             Create healthy and eco-friendly environments for people around the
             globe.Co-Create the new earth and lifestyles Diversity and Freedom.
             Peace and Love for all.
           </p>
-          <h2 class="mt-8 text-2xl">Vision:</h2>
+          <h2 class="mt-8 mb-2 text-2xl">Vision:</h2>
           <p>
             The biggest community for <br />
             higher consciousness and <br />
             holistic health on earth.
           </p>
-          <h2 class="mt-8 text-2xl">Mission:</h2>
+          <h2 class="mt-8 mb-2 text-2xl">Mission:</h2>
           <p class="max-w-3xl mx-auto">
             Create the biggest online and offline community around higher
             consciousness, mental health and spirituality on earth.Create
@@ -27,9 +27,9 @@
           </p>
         </div>
       </div>
-      <div class="py-12 tokenomics">
+      <div class="py-20 tokenomics">
         <div class="container mx-auto ">
-          <h4 class="mb-4 text-3xl font-medium text-left lg:text-4xl xl:text-5xl">
+          <h4 class="mb-4 text-2xl text-left lg:text-4xl xl:text-5xl">
             Tokenomics
           </h4>
 
@@ -119,14 +119,14 @@
               </div>
             </div>
 
-            <p class="text-left">KUTEKOI TOKEN</p>
+            <p class="mt-4 text-left">( These stats are not in real-time. )</p>
           </div>
         </div>
       </div>
       <!-- End Basic Info -->
 
       <!-- Start Web3 Quora -->
-      <div class="text-white row">
+<!--       <div class="text-white row">
         <div
           class="
             text-lg
@@ -146,11 +146,11 @@
             seeking only this, throughout our mission together.
           </p>
         </div>
-      </div>
+      </div> -->
       <!-- End Web3 Quora -->
     </div>
 
-    <div class="text-white bg-[#C00100] text-lg lg:text-lg py-20">
+<!--     <div class="text-white bg-[#C00100] text-lg lg:text-lg py-20">
       <p class="mb-8 md:mb-14 lg:!leading-[3.5rem]">
         "KuteKoi, manifesting wealth for you and your family"
       </p>
@@ -159,7 +159,7 @@
           -KuteKoi proverb</a
         ></b
       >
-    </div>
+    </div> -->
   </div>
 </template>
 
