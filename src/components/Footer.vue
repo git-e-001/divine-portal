@@ -2,11 +2,11 @@
   <div class="" :style="bgImage">
     <div class="container pt-48">
       <div class="xl:w-[83%] lg:w-[78%] w-[70%] mx-auto text-white">
-        <h5 class="pt-4 mb-6 md:text-4xl text-3xl">Divine Portals</h5>
-        <h5 class="pt-4 mb-6 text-[16px] font-bold uppercase">
+        <h5 class="pt-4 mb-5 text-3xl">Divine Portals</h5>
+        <h5 class="pt-4 mb-6 text-2xl font-medium uppercase">
           THE SMARTEST TOKEN IN THE WORLD.
         </h5>
-        <p class="mb-4 text[14px] font-['Roboto'] lg:px-40">
+        <p class=" mb-9 text-xl font-['Roboto'] lg:px-40">
           The Content shared on this website is for information purpose only
           and, thus, should not be considered as financial advice.
           Trading/Investing is risky and you should never invest more than you
@@ -19,7 +19,7 @@
             flex-col
             items-center
             justify-center
-            py-4
+            mb-9
             text[14px]
             font-['Roboto']
             md:space-x-5 md:space-y-0
@@ -43,7 +43,7 @@
         </ul>
       </div>
     </div>
-    <div class="text-white py-5 border-t border-sky-500">
+    <div class="py-5 text-white border-t border-sky-500">
       <p class="m-0 text-center md:text-xl text-xs font-['Roboto'] text-[14px]">
         © {{ new Date().getFullYear() }} All Rights Reserved By Divine Portals
       </p>
@@ -59,6 +59,7 @@ export default {
       bgImage: {
         backgroundImage: `url(${require("@/assets/background/earth.png")})`,
         backgroundRepeat: "no-repeat",
+        backgroundPosition:  'center',
         backgroundSize: "cover",
       },
     };

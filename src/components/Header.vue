@@ -1,76 +1,32 @@
 <template>
   <div
-    class="
-      container
-      w-full
-      dark-mode:text-gray-200 dark-mode:bg-gray-800
-      sticky
-      top-0
-      z-50
-      mt-5
-      md:mt-0
-    "
+    class="container sticky top-0 z-50 w-full mt-5 dark-mode:text-gray-200 dark-mode:bg-gray-800 md:mt-0"
   >
     <div
-      class="
-        flex flex-col
-        max-w-screen-xl
-        mx-auto
-        md:items-center md:justify-between md:flex-row
-      "
+      class="flex flex-col max-w-screen-xl mx-auto md:items-center md:justify-between md:flex-row"
     >
-      <div class="md:py-4 lg:p-4 flex flex-row items-center justify-between">
-        <!-- <a
-          href="#"
-          class="
-            text-lg
-            font-semibold
-            tracking-widest
-            text-gray-900
-            uppercase
-            rounded-lg
-            dark-mode:text-white
-            focus:outline-none focus:shadow-outline
-          "
-        >
-          <img
-            class="w-[35%] md:w-full lg:w-[35%]"
-            src="@/assets/logo.svg"
-            alt=""
-          />
-        </a> -->
+      <div class="flex flex-row items-center justify-between text-white md:py-4 lg:p-4">
         <button
-          class="
-            md:hidden
-            rounded-lg
-            focus:outline-none focus:shadow-outline
-            self-start
-          "
+          class="self-start rounded-lg md:hidden focus:outline-none focus:shadow-outline"
           @click="openNav = !openNav"
         >
           <img
             v-if="!openNav"
-            class="h-[17px] w-[26px] text-white"
+            class="h-[17px] w-[26px]"
             src="@/assets/menu-icon.svg"
             alt=""
           />
           <img
             v-else
-            class="h-[17px] w-[26px] text-white"
+            class="h-[17px] w-[26px]"
             src="@/assets/cross.svg"
             alt=""
           />
         </button>
+        <h2 class="text-xl font-medium md:hidden">Divine Portals</h2>
       </div>
       <nav
-        class="
-          flex-col flex-grow
-          hidden
-          self-start
-          md:flex md:justify-end md:flex-row
-          space-x-7
-          pr-48
-        "
+        class="flex-col self-start flex-grow hidden pr-48 md:flex md:justify-end md:flex-row space-x-7"
         :class="[
           scrollPosition > 50
             ? 'fixed top-0 right-0 z-10 w-[100vw] bg-[#0b0b0b] mt-0 p-5 pr-[3%] xl:pr-[4%] 2xl:pr-[15.5%] transition-all ease-in-out duration-300'
@@ -134,15 +90,7 @@
       <!-- For Mobile Header -->
       <nav v-if="openNav" class="md:hidden w-[95%] absolute mt-[30px]">
         <div
-          class="
-            navbar-collapse
-            justify-content-end
-            mCustomScrollbar
-            _mCS_1
-            collapse
-            show
-            mCS_no_scrollbar
-          "
+          class=" navbar-collapse justify-content-end mCustomScrollbar _mCS_1 collapse show mCS_no_scrollbar"
           id="navbarSupportedContent"
           style="top: 60px; display: block"
         >
@@ -222,11 +170,7 @@
             </div>
             <div
               id="mCSB_1_scrollbar_vertical"
-              class="
-                mCSB_scrollTools mCSB_1_scrollbar
-                mCS-dark
-                mCSB_scrollTools_vertical
-              "
+              class=" mCSB_scrollTools mCSB_1_scrollbar mCS-dark mCSB_scrollTools_vertical"
               style="display: none"
             >
               <div class="mCSB_draggerContainer">
