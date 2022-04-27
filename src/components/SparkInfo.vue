@@ -225,7 +225,7 @@ export default {
 }
 .tokenomics {
   @apply text-white;
-  background-image: url("/src/assets/background/artboard–3.png");
+  background-image: url("/src/assets/background/artboard_3.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

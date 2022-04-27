@@ -1,23 +1,13 @@
 <template>
   <div class="z-[2] container">
-    <div class="banner_slide_content h-full">
+    <div class="h-full banner_slide_content">
       <!-- STRART CONTAINER -->
       <div class="text-white">
-        <div class="grid grid-cols-2 gap-24 justify-between items-center">
-          <h2 class="text-xl md:text-3xl">Divine Portals</h2>
+        <div class="grid items-center justify-between grid-cols-2 gap-24">
+          <h2 class="hidden text-xl md:text-3xl md:block">Divine Portals</h2>
           <div class="col-span-2">
             <div
-              class="
-                flex
-                lg:flex-row
-                flex-col
-                justify-center
-                items-center
-                lg:space-x-40
-                space-x-0
-                lg:space-y-0
-                space-y-20
-              "
+              class="flex flex-col items-center justify-center space-x-0 space-y-20 lg:flex-row lg:space-x-40 lg:space-y-0"
             >
               <div>
                 <h1 class="mt-6 text-4xl">
@@ -39,7 +29,7 @@
                   hover:scale-105 hover:drop-shadow-2xl
                 "
               >
-                <h3 class="md:text-3xl text-xl mb-2 px-16">
+                <h3 class="px-16 mb-2 text-xl md:text-3xl">
                   Private Sale (Round 2) Ends in
                 </h3>
                 <vue-countdown
@@ -51,7 +41,7 @@
                     class="conutdown-list lg:text-lg font-['Roboto'] mt-5"
                     id="countdown"
                   >
-                    <ul class="flex justify-around text-center flex-wrap">
+                    <ul class="flex flex-wrap justify-around text-center">
                       <li>
                         <span>Days</span>
                         <span class="clock-background" id="days">{{
@@ -82,31 +72,18 @@
                 </p>
 
                 <div class="font-['Roboto']">
-                  <button class="bg-white text-black py-1 px-6 rounded">
+                  <button class="px-6 py-1 text-black bg-white rounded">
                     KYC
                   </button>
 
-                  <button class="bg-white text-black py-1 px-6 ml-2 rounded">
+                  <button class="px-6 py-1 ml-2 text-black bg-white rounded">
                     Audio
                   </button>
                 </div>
 
                 <div class="clock-button mt-6 font-['Roboto']">
                   <button
-                    class="
-                      rounded-full
-                      bg-white
-                      text-black
-                      cursor-pointer
-                      uppercase
-                      transition
-                      ease-in-out
-                      duration-500
-                      w-52
-                      md:py-3
-                      py-2
-                      font-bold
-                    "
+                    class="py-2 font-bold text-black uppercase transition duration-500 ease-in-out bg-white rounded-full cursor-pointer w-52 md:py-3"
                   >
                     BUY NOW
                   </button>

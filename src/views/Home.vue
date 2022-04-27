@@ -7,7 +7,7 @@
     <section class="h-[524px] flex items-center" :style="whatDoWeDo">
       <div class="container">
         <div
-          class="flex flex-col items-center justify-center space-x-0 space-y-5 lg:flex-row lg:space-x-5 lg:space-y-0"
+          class="flex flex-col items-center justify-center gap-5 space-x-0 space-y-5 lg:flex-row lg:space-x-5 lg:space-y-0"
         >
           <div>
             <img
@@ -23,7 +23,7 @@
               alt=""
             />
           </div>
-          <div class="space-y-5">
+          <div class="flex flex-col items-center space-y-5 md:items-start ">
             <h1 class="text-3xl text-left text-white">What Do We Do?</h1>
             <div class="text-sm text-left md:w-[524px] text-white">
               Create healthy and eco-friendly environments for people around the
