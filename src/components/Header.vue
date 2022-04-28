@@ -20,6 +20,23 @@
       "
     >
       <div class="text-white md:py-4 lg:p-4 flex items-center justify-between">
+        <a
+          href="#"
+          class="
+            text-lg
+            font-semibold
+            tracking-widest
+            text-gray-900
+            uppercase
+            rounded-lg
+            dark-mode:text-white
+            focus:outline-none focus:shadow-outline
+            hidden
+            md:block
+          "
+        >
+          <img class="w-32 rounded-full" src="@/assets/logo.png" alt="" />
+        </a>
         <button
           class="
             self-center
