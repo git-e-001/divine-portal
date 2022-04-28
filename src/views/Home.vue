@@ -7,7 +7,14 @@
     <section class="h-[524px] flex items-center" :style="whatDoWeDo">
       <div class="container">
         <div
-          class="flex flex-col items-center justify-center gap-5 space-x-0 space-y-5 lg:flex-row lg:space-x-5 lg:space-y-0"
+          class="
+            flex flex-col
+            items-center
+            justify-center
+            gap-5
+            space-x-0 space-y-5
+            lg:flex-row lg:space-x-5 lg:space-y-0
+          "
         >
           <div>
             <img
@@ -23,21 +30,57 @@
               alt=""
             />
           </div>
-          <div class="flex flex-col items-center space-y-5 md:items-start ">
-            <h1 class="text-3xl text-left text-white">What Do We Do?</h1>
-            <div class="text-sm text-left md:w-[524px] text-white">
+          <div
+            class="
+              flex flex-col
+              justify-center
+              space-y-5
+              lg:items-start
+              items-center
+            "
+          >
+            <h1 class="text-3xl lg:text-left text-center text-white">
+              What Do We Do?
+            </h1>
+            <div
+              class="
+                text-sm
+                lg:text-left
+                text-center
+                md:w-[524px]
+                w-full
+                text-white
+              "
+            >
               Create healthy and eco-friendly environments for people around the
               globe.Co-Create the new earth and lifestyles Diversity and
               Freedom. Peace and Love for all.
             </div>
             <div class="space-x-1 text-left md:space-x-5">
               <button
-                class="px-6 py-1 text-white border-2 rounded-full bg-sky-500 md:py-2 md:px-12 border-sky-500"
+                class="
+                  px-6
+                  py-1
+                  text-white
+                  border-2
+                  rounded-full
+                  bg-sky-500
+                  md:py-2 md:px-12
+                  border-sky-500
+                "
               >
                 Whitepaper
               </button>
               <button
-                class="px-6 py-1 text-white border-2 rounded-full md:py-2 md:px-12 border-sky-500"
+                class="
+                  px-6
+                  py-1
+                  text-white
+                  border-2
+                  rounded-full
+                  md:py-2 md:px-12
+                  border-sky-500
+                "
               >
                 Play Video
               </button>
@@ -49,10 +92,6 @@
     <section class="bg-[#171010]">
       <SparkInfo />
     </section>
-
-<!--     <section class="md:py-[100px]" :style="aboutBgImage">
-      <About />
-    </section> -->
     <Footer />
   </div>
 </template>
@@ -77,15 +116,14 @@ export default {
       bgImage: {
         backgroundImage: `url(${require("@/assets/background/banner_bg.png")})`,
         backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
         backgroundSize: "cover",
       },
       whatDoWeDo: {
         backgroundImage: `url(${require("@/assets/background/what-do-we-do.png")})`,
         backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
         backgroundSize: "cover",
-      },
-      aboutBgImage: {
-        backgroundImage: `url(${require("@/assets/background/about_team_bg.png")})`,
       },
     };
   },
@@ -94,7 +132,6 @@ export default {
 
 <style scoped>
 .banner-bg {
-  /* background-image: url(https://web3spark.io/assets/images/wave_shape4.png); */
   @apply overflow-hidden;
 }
 .banner_shape {

@@ -1,13 +1,32 @@
 <template>
   <div
-    class="container sticky top-0 z-50 w-full mt-5 dark-mode:text-gray-200 dark-mode:bg-gray-800 md:mt-0"
+    class="
+      container
+      sticky
+      top-0
+      z-50
+      w-full
+      mt-5
+      dark-mode:text-gray-200 dark-mode:bg-gray-800
+      md:mt-0
+    "
   >
     <div
-      class="flex flex-col max-w-screen-xl mx-auto md:items-center md:justify-between md:flex-row"
+      class="
+        flex flex-col
+        max-w-screen-xl
+        mx-auto
+        md:items-center md:justify-between md:flex-row
+      "
     >
-      <div class="flex flex-row items-center justify-between text-white md:py-4 lg:p-4">
+      <div class="text-white md:py-4 lg:p-4 flex items-center justify-between">
         <button
-          class="self-start rounded-lg md:hidden focus:outline-none focus:shadow-outline"
+          class="
+            self-center
+            rounded-lg
+            md:hidden
+            focus:outline-none focus:shadow-outline
+          "
           @click="openNav = !openNav"
         >
           <img
@@ -26,7 +45,15 @@
         <h2 class="text-xl font-medium md:hidden">Divine Portals</h2>
       </div>
       <nav
-        class="flex-col self-start flex-grow hidden pr-48 md:flex md:justify-end md:flex-row space-x-7"
+        class="
+          flex-col
+          self-start
+          flex-grow
+          hidden
+          lg:pr-48
+          md:flex md:justify-end md:flex-row
+          space-x-7
+        "
         :class="[
           scrollPosition > 50
             ? 'fixed top-0 right-0 z-10 w-[100vw] bg-[#0b0b0b] mt-0 p-5 pr-[3%] xl:pr-[4%] 2xl:pr-[15.5%] transition-all ease-in-out duration-300'
@@ -90,7 +117,15 @@
       <!-- For Mobile Header -->
       <nav v-if="openNav" class="md:hidden w-[95%] absolute mt-[30px]">
         <div
-          class=" navbar-collapse justify-content-end mCustomScrollbar _mCS_1 collapse show mCS_no_scrollbar"
+          class="
+            navbar-collapse
+            justify-content-end
+            mCustomScrollbar
+            _mCS_1
+            collapse
+            show
+            mCS_no_scrollbar
+          "
           id="navbarSupportedContent"
           style="top: 60px; display: block"
         >
@@ -170,7 +205,11 @@
             </div>
             <div
               id="mCSB_1_scrollbar_vertical"
-              class=" mCSB_scrollTools mCSB_1_scrollbar mCS-dark mCSB_scrollTools_vertical"
+              class="
+                mCSB_scrollTools mCSB_1_scrollbar
+                mCS-dark
+                mCSB_scrollTools_vertical
+              "
               style="display: none"
             >
               <div class="mCSB_draggerContainer">

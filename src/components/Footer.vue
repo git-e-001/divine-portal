@@ -2,11 +2,11 @@
   <div class="" :style="bgImage">
     <div class="container pt-48">
       <div class="xl:w-[83%] lg:w-[78%] w-[70%] mx-auto text-white">
-        <h5 class="pt-4 mb-5 text-3xl">Divine Portals</h5>
-        <h5 class="pt-4 mb-6 text-2xl font-medium uppercase">
+        <h5 class="pt-4 mb-5 text-2xl">Divine Portals</h5>
+        <h5 class="pt-4 mb-6 text-3xl uppercase">
           THE SMARTEST TOKEN IN THE WORLD.
         </h5>
-        <p class=" mb-9 text-xl font-['Roboto'] lg:px-40">
+        <p class="mb-9 text-xl font-['Roboto'] lg:px-40">
           The Content shared on this website is for information purpose only
           and, thus, should not be considered as financial advice.
           Trading/Investing is risky and you should never invest more than you
@@ -59,7 +59,7 @@ export default {
       bgImage: {
         backgroundImage: `url(${require("@/assets/background/earth.png")})`,
         backgroundRepeat: "no-repeat",
-        backgroundPosition:  'center',
+        backgroundPosition: "center",
         backgroundSize: "cover",
       },
     };

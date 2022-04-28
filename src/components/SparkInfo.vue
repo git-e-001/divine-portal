@@ -28,8 +28,8 @@
         </div>
       </div>
       <div class="py-20 tokenomics">
-        <div class="container mx-auto ">
-          <h4 class="mb-4 text-2xl text-left lg:text-4xl xl:text-5xl">
+        <div class="container mx-auto">
+          <h4 class="mb-4 text-2xl text-left lg:text-4xl xl:text-5xl ml-5">
             Tokenomics
           </h4>
 
@@ -53,10 +53,10 @@
 
             <div class="skill_content pr_style1">
               <div class="text-left progrees_bar_text">
-                <span>Developer Allocation - 1.0%</span>
+                <span>Team Allocation - 0.6%</span>
               </div>
               <div class="progress">
-                <div class="count_pr"><span class="counter">1.0</span>%</div>
+                <div class="count_pr"><span class="counter">0.6</span>%</div>
                 <div
                   class="progress-bar d-block"
                   role="progressbar"
@@ -70,7 +70,7 @@
 
             <div class="skill_content pr_style1">
               <div class="text-left progrees_bar_text">
-                <span>Holders - </span>
+                <span>Wallet Holders - Pending... </span>
               </div>
               <div class="progress pr_style1">
                 <div class="count_pr"><span class="counter">0.0</span>%</div>
@@ -87,7 +87,7 @@
 
             <div class="skill_content pr_style1">
               <div class="text-left progrees_bar_text">
-                <span>Tokens In Circulation -</span>
+                <span>Tokens In Circulation - Pending...</span>
               </div>
               <div class="progress">
                 <div class="count_pr"><span class="counter">0.0</span>%</div>
@@ -104,7 +104,7 @@
 
             <div class="skill_content pr_style1">
               <div class="text-left progrees_bar_text">
-                <span>Reflections - </span>
+                <span>Burned - Pending... </span>
               </div>
               <div class="progress">
                 <div class="count_pr"><span class="counter">0.0</span>%</div>
@@ -126,7 +126,7 @@
       <!-- End Basic Info -->
 
       <!-- Start Web3 Quora -->
-<!--       <div class="text-white row">
+      <!--       <div class="text-white row">
         <div
           class="
             text-lg
@@ -150,7 +150,7 @@
       <!-- End Web3 Quora -->
     </div>
 
-<!--     <div class="text-white bg-[#C00100] text-lg lg:text-lg py-20">
+    <!--     <div class="text-white bg-[#C00100] text-lg lg:text-lg py-20">
       <p class="mb-8 md:mb-14 lg:!leading-[3.5rem]">
         "KuteKoi, manifesting wealth for you and your family"
       </p>
@@ -216,7 +216,7 @@ export default {
   transition: width 0.6s ease;
 }
 .skill_content .progress-bar {
-  background-color: #18A8DB;
+  background-color: #18a8db;
   border-radius: 20px;
   width: 0;
   -webkit-transition: all 2s ease-in-out;

@@ -1,4 +1,4 @@
-# kutekoi
+# Divine Portals
 
 ## Project setup
 ```
